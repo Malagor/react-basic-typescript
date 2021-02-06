@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf5040ce-47ba-4a9a-83d9-6d42ecd7d86c" name="Default Changelist" comment="feat: events, lists">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cat/Cat.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+    <list default="true" id="bf5040ce-47ba-4a9a-83d9-6d42ecd7d86c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Cat/Cat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat/Cat.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612621658109</updated>
-      <workItem from="1612621659204" duration="13897000" />
+      <workItem from="1612621659204" duration="14195000" />
     </task>
     <task id="LOCAL-00001" summary="feat: events, lists">
       <created>1612632222753</created>
@@ -119,44 +113,74 @@
       <option name="project" value="LOCAL" />
       <updated>1612638236916</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor: adda workspace.xml">
+      <created>1612638528534</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612638528534</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor: adda workspace.xml">
+      <created>1612638580413</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612638580413</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: events, lists" />
     <MESSAGE value="feat: if" />
     <MESSAGE value="feat: dynamic if, delete list-item" />
     <MESSAGE value="refactor: delete *.xml from commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: delete *.xml from commit" />
+    <MESSAGE value="refactor: adda workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: adda workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="10" y="258" key="#TypeScript" timestamp="1612622186527">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="10" y="258" key="#TypeScript/0.40.2048.1112@0.40.2048.1112" timestamp="1612622186527" />
-    <state x="595" y="171" key="CommitChangelistDialog2" timestamp="1612638236275">
+    <state x="595" y="171" key="CommitChangelistDialog2" timestamp="1612638579933">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="595" y="171" key="CommitChangelistDialog2/0.40.2048.1112@0.40.2048.1112" timestamp="1612638236275" />
+    <state x="595" y="171" key="CommitChangelistDialog2/0.40.2048.1112@0.40.2048.1112" timestamp="1612638579933" />
     <state x="94" y="140" width="646" height="918" key="DiffContextDialog" timestamp="1612621908412">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="94" y="140" width="646" height="918" key="DiffContextDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612621908412" />
-    <state x="226" y="315" key="MultipleFileMergeDialog" timestamp="1612638427521">
+    <state x="0" y="137" key="MergeDialog" timestamp="1612638612409">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="226" y="315" key="MultipleFileMergeDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612638427521" />
+    <state x="0" y="137" key="MergeDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612638612409" />
+    <state x="226" y="315" key="MultipleFileMergeDialog" timestamp="1612638612417">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="226" y="315" key="MultipleFileMergeDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612638612417" />
     <state x="250" y="310" key="RollbackChangesDialog" timestamp="1612638106417">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="250" y="310" key="RollbackChangesDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612638106417" />
-    <state x="105" y="332" key="Vcs.Push.Dialog.v2" timestamp="1612638245059">
+    <state x="105" y="332" key="Vcs.Push.Dialog.v2" timestamp="1612638589861">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="105" y="332" key="Vcs.Push.Dialog.v2/0.40.2048.1112@0.40.2048.1112" timestamp="1612638245059" />
+    <state x="105" y="332" key="Vcs.Push.Dialog.v2/0.40.2048.1112@0.40.2048.1112" timestamp="1612638589861" />
     <state x="295" y="312" key="git4idea.branch.GitSmartOperationDialog" timestamp="1612638418116">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
