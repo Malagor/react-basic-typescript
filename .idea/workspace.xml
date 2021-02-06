@@ -20,6 +20,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -28,10 +35,11 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="117991044e9e8cefb095f101263c14e643bcff1a" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1o6z7IBhJKUqFcHgfERUJ39oQhJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,6 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -80,8 +89,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612621658109</updated>
-      <workItem from="1612621659204" duration="7793000" />
+      <workItem from="1612621659204" duration="13897000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: events, lists">
+      <created>1612632222753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612632222753</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: if">
+      <created>1612633178733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612633178733</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: dynamic if, delete list-item">
+      <created>1612637703613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612637703613</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor: delete *.xml from commit">
+      <created>1612638236916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612638236916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,28 +127,43 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: events, lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: events, lists" />
+    <MESSAGE value="feat: if" />
+    <MESSAGE value="feat: dynamic if, delete list-item" />
+    <MESSAGE value="refactor: delete *.xml from commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: delete *.xml from commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="10" y="258" key="#TypeScript" timestamp="1612622186527">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="10" y="258" key="#TypeScript/0.40.2048.1112@0.40.2048.1112" timestamp="1612622186527" />
-    <state x="138" y="194" key="CommitChangelistDialog2" timestamp="1612632201660">
+    <state x="595" y="171" key="CommitChangelistDialog2" timestamp="1612638236275">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="138" y="194" key="CommitChangelistDialog2/0.40.2048.1112@0.40.2048.1112" timestamp="1612632201660" />
+    <state x="595" y="171" key="CommitChangelistDialog2/0.40.2048.1112@0.40.2048.1112" timestamp="1612638236275" />
     <state x="94" y="140" width="646" height="918" key="DiffContextDialog" timestamp="1612621908412">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="94" y="140" width="646" height="918" key="DiffContextDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612621908412" />
-    <state x="250" y="310" key="RollbackChangesDialog" timestamp="1612621865715">
+    <state x="226" y="315" key="MultipleFileMergeDialog" timestamp="1612638427521">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="250" y="310" key="RollbackChangesDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612621865715" />
-    <state x="169" y="282" key="run.anything.popup" timestamp="1612629129314">
+    <state x="226" y="315" key="MultipleFileMergeDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612638427521" />
+    <state x="250" y="310" key="RollbackChangesDialog" timestamp="1612638106417">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="169" y="282" key="run.anything.popup/0.40.2048.1112@0.40.2048.1112" timestamp="1612629129314" />
+    <state x="250" y="310" key="RollbackChangesDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612638106417" />
+    <state x="105" y="332" key="Vcs.Push.Dialog.v2" timestamp="1612638245059">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="105" y="332" key="Vcs.Push.Dialog.v2/0.40.2048.1112@0.40.2048.1112" timestamp="1612638245059" />
+    <state x="295" y="312" key="git4idea.branch.GitSmartOperationDialog" timestamp="1612638418116">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="295" y="312" key="git4idea.branch.GitSmartOperationDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612638418116" />
+    <state x="169" y="282" key="run.anything.popup" timestamp="1612637373075">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="169" y="282" key="run.anything.popup/0.40.2048.1112@0.40.2048.1112" timestamp="1612637373075" />
   </component>
 </project>
