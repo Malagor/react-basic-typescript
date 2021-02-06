@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {ChangeEvent, Component} from 'react';
 import './App.css';
 import Cat from "./Cat/Cat";
 
@@ -10,15 +10,15 @@ class App extends Component {
       {name: "Bars", age: 10, color: 'white'},
       {name: "Mazzy", age: 7, color: 'yellow'},
       {name: "Black", age: 7, color: 'black'},
-      {name: "White", age: 1.5, color: 'white'}
+      // {name: "White", age: 1.5, color: 'white'}
     ],
     pageTitle: 'My Cats',
-    showCats: false,
+    showCats: true,
   };
 
-  changeTitleHandler = (pageTitle: string) => {
-    this.setState({pageTitle});
-  };
+  // changeTitleHandler = (pageTitle: string) => {
+  //   this.setState({pageTitle});
+  // };
 
   handlerToggleCats = () => {
     this.setState({
@@ -26,15 +26,29 @@ class App extends Component {
     });
   };
 
+  onChangeName = (name: string, index: number) => {
+    // console.log(name, index)
+    const cat = this.state.cats[index];
+    cat.name = name;
+
+    // const cats = this.state.cats.concat();
+    const cats = [...this.state.cats];
+    cats[index] = cat;
+
+    this.setState({
+      cats
+    })
+  };
+
+  deleteHandler(index: number) {
+    const cats = this.state.cats.concat();
+    cats.splice(index, 1);
+
+    this.setState({cats});
+
+  }
 
   render() {
-
-    const catList = {
-      display: 'flex',
-      maxWidth: '900px',
-      justifyContent: 'space-between',
-      margin: '2rem auto'
-    };
 
     let cats = null;
 
@@ -46,9 +60,11 @@ class App extends Component {
             name={cat.name}
             age={cat.age}
             color={cat.color}
-            onChangeTitle={this.changeTitleHandler.bind(this, `Cat: ${cat.name}`)}
+            // onChangeTitle={this.changeTitleHandler.bind(this, `Cat: ${cat.name}`)}
+            onChangeName={(event: ChangeEvent<HTMLInputElement>) => this.onChangeName(event.target.value, index)}
+            onDelete={this.deleteHandler.bind(this, index)}
           />
-        )
+        );
       })
     }
     return (
@@ -57,9 +73,9 @@ class App extends Component {
 
         <button onClick={this.handlerToggleCats}>Toggle Cats</button>
 
-        <div style={catList}>
+        <div className='catList'>
 
-          { cats }
+          {cats}
 
           {/*{*/}
           {/*  this.state.showCats*/}
