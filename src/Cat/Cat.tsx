@@ -1,17 +1,7 @@
 import React from 'react';
-import './Cat.css';
+import Radium from 'radium';
 
-// export function Cat() {
-//     return (
-//       <h2>Cat Component</h2>
-//     )
-// }
-
-// export const Cat = () => {
-//   return (
-//     <div>This is Cat</div>
-//   )
-// };
+import classes from './Cat.module.scss';
 
 export interface catsProps {
   name: string;
@@ -22,18 +12,47 @@ export interface catsProps {
   onChangeName?: any;
   onDelete?: any;
 }
+
 // eslint-disable-next-line import/no-anonymous-default-export
-export default (props: catsProps) => {
+const Cat = (props: catsProps) => {
+  const inputClasses = [classes.input];
+
+  const style: {[k: string]: string | object} = {
+    border: '1px solid #ccc',
+    boxShadow: '0 4px 5px rgba(0, 0, 0, 0.14)',
+    ':hover': {
+      border: '1px solid #ccc',
+      boxShadow: '0 4px 15px rgba(0, 0, 0, 0.25)',
+      cursor: 'pointer'
+    }
+  };
+
+  if (props.name !== '') {
+    inputClasses.push(classes.green);
+  } else {
+    inputClasses.push(classes.red);
+  }
+
+  if (props.name.length > 6) {
+    inputClasses.push(classes.bold);
+  }
 
   return (
-    <div className={"catCard"}>
-      <div><span className={'catInfo'}>Name:</span> {props.name}</div>
-      <div><span className={'catInfo'}>Age:</span> {props.age}</div>
-      <div><span className={'catInfo'}>Color:</span> {props.color}</div>
-      { props.children }
-      <input type="text" onChange={props.onChangeName} autoComplete={'true'} value={props.name}/>
-      {/*<button onClick={props.onChangeTitle}>Click</button>*/}
+    <div className={classes.catCard} style={style}>
+      <div><span className={classes.catInfo}>Name:</span> {props.name}</div>
+      <div><span className={classes.catInfo}>Age:</span> {props.age}</div>
+      <div><span className={classes.catInfo}>Color:</span> {props.color}</div>
+      {props.children}
+      <input
+        type="text"
+        value={props.name}
+        autoComplete={'true'}
+        onChange={props.onChangeName}
+        className={inputClasses.join(" ")}
+      />
       <button onClick={props.onDelete}>Delete</button>
     </div>
-  )
-}
+  );
+};
+
+export default Radium(Cat);

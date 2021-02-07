@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf5040ce-47ba-4a9a-83d9-6d42ecd7d86c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Cat/Cat.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cat/Cat.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cat/Cat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat/Cat.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +36,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="117991044e9e8cefb095f101263c14e643bcff1a" />
+        <entry key="$PROJECT_DIR$" value="3-basic-React" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612621658109</updated>
-      <workItem from="1612621659204" duration="14195000" />
+      <workItem from="1612621659204" duration="18971000" />
     </task>
     <task id="LOCAL-00001" summary="feat: events, lists">
       <created>1612632222753</created>
@@ -127,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612638580413</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor: adda workspace.xml">
+      <created>1612638627884</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612638627884</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,14 +171,30 @@
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="10" y="258" key="#TypeScript/0.40.2048.1112@0.40.2048.1112" timestamp="1612622186527" />
-    <state x="595" y="171" key="CommitChangelistDialog2" timestamp="1612638579933">
+    <state x="595" y="171" key="CommitChangelistDialog2" timestamp="1612682305158">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="595" y="171" key="CommitChangelistDialog2/0.40.2048.1112@0.40.2048.1112" timestamp="1612638579933" />
+    <state x="595" y="171" key="CommitChangelistDialog2/0.40.2048.1112@0.40.2048.1112" timestamp="1612682305158" />
     <state x="94" y="140" width="646" height="918" key="DiffContextDialog" timestamp="1612621908412">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="94" y="140" width="646" height="918" key="DiffContextDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612621908412" />
+    <state width="782" height="305" key="GridCell.Tab.0.bottom" timestamp="1612641660256">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="782" height="305" key="GridCell.Tab.0.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1612641660256" />
+    <state width="782" height="305" key="GridCell.Tab.0.center" timestamp="1612641660256">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="782" height="305" key="GridCell.Tab.0.center/0.40.2048.1112@0.40.2048.1112" timestamp="1612641660256" />
+    <state width="782" height="305" key="GridCell.Tab.0.left" timestamp="1612641660256">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="782" height="305" key="GridCell.Tab.0.left/0.40.2048.1112@0.40.2048.1112" timestamp="1612641660256" />
+    <state width="782" height="305" key="GridCell.Tab.0.right" timestamp="1612641660256">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="782" height="305" key="GridCell.Tab.0.right/0.40.2048.1112@0.40.2048.1112" timestamp="1612641660256" />
     <state x="0" y="137" key="MergeDialog" timestamp="1612638612409">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
@@ -177,17 +207,17 @@
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="250" y="310" key="RollbackChangesDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612638106417" />
-    <state x="105" y="332" key="Vcs.Push.Dialog.v2" timestamp="1612638589861">
+    <state x="105" y="332" key="Vcs.Push.Dialog.v2" timestamp="1612638633599">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="105" y="332" key="Vcs.Push.Dialog.v2/0.40.2048.1112@0.40.2048.1112" timestamp="1612638589861" />
+    <state x="105" y="332" key="Vcs.Push.Dialog.v2/0.40.2048.1112@0.40.2048.1112" timestamp="1612638633599" />
     <state x="295" y="312" key="git4idea.branch.GitSmartOperationDialog" timestamp="1612638418116">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="295" y="312" key="git4idea.branch.GitSmartOperationDialog/0.40.2048.1112@0.40.2048.1112" timestamp="1612638418116" />
-    <state x="169" y="282" key="run.anything.popup" timestamp="1612637373075">
+    <state x="169" y="282" key="run.anything.popup" timestamp="1612640785969">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="169" y="282" key="run.anything.popup/0.40.2048.1112@0.40.2048.1112" timestamp="1612637373075" />
+    <state x="169" y="282" key="run.anything.popup/0.40.2048.1112@0.40.2048.1112" timestamp="1612640785969" />
   </component>
 </project>
